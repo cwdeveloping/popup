@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button id="openPopup">Open Popup</button>
-    
-    <div id="popup" class="popup">
+    <button onclick="togglePopup()">Open Popup</button>
+
+    <div class="popup" id="popup">
         <div class="popup-content">
-            <span id="closePopup" class="close">&times;</span>
-            <h2>Popup Title</h2>
+            <span class="close" onclick="togglePopup()">&times;</span>
             <p>
-                This is a sample popup. You can add any content you like here.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem corrupti temporibus facilis quia atque ullam obcaecati asperiores quae laborum illum quos a dolore exercitationem id repellat, nostrum adipisci nobis ipsam.
             </p>
+            <button class="ok-button" onclick="togglePopup()">OK</button>
         </div>
     </div>
-    
+
     <script src="js/script.js"></script>
 </body>
 </html>
