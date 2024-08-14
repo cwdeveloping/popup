@@ -1,5 +1,5 @@
+const popup = document.getElementById('popup');
 function togglePopup() {
-    const popup = document.getElementById('popup');
     popup.classList.toggle('show');
 }
 window.addEventListener('click', (event) => {
