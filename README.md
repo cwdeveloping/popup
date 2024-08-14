@@ -1,1 +1,1 @@
-https://cwdeveloping.github.io/popup/index.html
+https://cwdeveloping.github.io/popup/
